@@ -5,4 +5,5 @@ a = int(input("Введіть перший діапозон:"))
 b = int(input("Введіть кінцевий діапозон:"))
 
 masiv = array('i', [random.randint(a, b) for i in range(12)])
+masiv = array('i', sorted(masiv))
 print(masiv)
